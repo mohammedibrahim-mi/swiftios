@@ -1,5 +1,7 @@
 import UIKit
 
+// program 1
+
 
 //parent class
 
@@ -35,3 +37,29 @@ var C = Child()
 C.childMethod()
 C.parentMethod()
 C.getName()
+
+
+
+//program 2
+
+
+class Vehicle { 
+  var numberOfWheels: Int 
+  var maxPassengers: Int 
+  func description() -> String { 
+} 
+return "\(numberOfWheels) wheels; up to \(maxPassengers) passengers" 
+}
+
+init() { 
+numberOfWheels = 0
+ maxPassengers = 1 
+ } 
+ } 
+class Bicycle: Vehicle {
+init()
+ { 
+super.init() 
+numberOfWheels = 2 
+} 
+} 
