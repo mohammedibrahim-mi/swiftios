@@ -1,3 +1,4 @@
+// program 1
 
 var str = "Hello, playground"
 
@@ -31,6 +32,20 @@ for s in str1 {
 
 print("This is \"my\" string \(str1)")
 
+//program 2
+
+let levelScores = [100, 200, 300]
+var level = 0 for score in levelScores { 
+if score >= 100 
+{
+ level += 1
+} 
+else if { level += 2
+}
+else {
+level += 3
+} 
+print (“your level is \(level).”) 
 
 
 
